@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <title>Card By Using Bootstrap</title>
+  </head>
+  <style>
+    .card {
+      border-width: 2px;
+      border-style: solid;
+      border-image: linear-gradient(to right bottom, #260b3c, #a053df);
+      border-image-slice: 1;
+      overflow: hidden;
+    }
+    .card img:hover {
+      transform: scale(1.05);
+      transition: transform 0.5s ease-in-out;
+    }
+  </style>
+  <body>
+    <div class="card mx-auto mb-3" style="width: 18rem">
+      <img src="picture/portfolio-4.jpg" class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 class="card-title text-center">Cactus Tree</h5>
+        <p class="card-text text-center">
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </p>
+        <div class="text-center">
+          <a href="#" class="btn btn-outline-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3 mx-auto" style="max-width: 540px">
+      <div class="row g-0">
+        <div class="col-md-6">
+          <img
+            src="picture/portfolio-1.jpg"
+            class="img-fluid rounded-start h-100"
+            alt="..."
+          />
+        </div>
+        <div class="col-md-6">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+            <p class="card-text">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,61 @@
+### Bootstrap is mainly a css framework which is more easier than raw css 
+
+### Link your file with bootstrap there have two ways :
+1. Download the Compiled CSS an JS:-
+    ===>> go to the bootstrap website and than click download button and than go to download page and you get a section like  and Js file than download this file and extract it on your machine...how its work when our any css or js file need than we copy from here and paste our file but we just linke with our file like link for css and script for js 
+
+2. Copy paste: just CSS file link in html file and after your all body tag paste the Js means    script link:
+
+======>> CSS link:- 
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+======>>Js link:- 
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+======>> you want to search bootstrap class or id by using chrome shortcut like Ctrl+f and get a search bar and write your desire tag classes or id and you will find it just copy and paste 
+
+
+======>> you can use bootstrap icon by using a css CDN link on your html head or css @import link given below:
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+
+
+
+=======>>> what is bootstrap??
+
+====>> bootstrap is a css framework which have in build all css property already writen and class also define in there css stylesheet and js files. you just link the cdn for css and script for js or download and import your css and js file and then just apply those class on your html structure than it will be change 
+
+====>> just you can hunt thoose classes which was written in the framework and just apply and look the magic of bootstrap
+
+
+
+<<<========>>>
+Utilities:-
+<<<========>>>
+
+----->> 
+API
+Background
+Borders
+Colors
+Display
+Flex
+Float
+Interactions
+Opacity
+Overflow
+Position
+Shadows
+Sizing
+Spacing
+Text
+Vertical align
+Visibility
+Migration
+
+
+
